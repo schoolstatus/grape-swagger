@@ -325,7 +325,7 @@ module GrapeSwagger
     end
 
     def is_primitive?(type)
-      %w(object integer long float double string byte boolean date dateTime).include? type
+      %w(object integer long float double string byte boolean date dateTime File).include? type
     end
 
     def generate_typeref(type)
